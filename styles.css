@@ -1,1 +1,44 @@
-
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(205, 248, 14);
+}
+.para{
+    border: 5px solid palevioletred;
+    margin: 10px;
+}
+p, ul{
+    border: 3px rgb(10, 115, 163) dotted;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    display: flex ;
+}
+.block, li{
+    border: 2px solid rgb(163, 7, 7);
+    padding: 20px;
+    background-color: rgba(235, 130, 70, 0.767);
+}
+.inline{
+    display: inline;
+    border: 2px solid rgb(235, 79, 8);
+    background-color: aquamarine;
+}
+.margins{
+    border: 2px double;
+}
+.neg{
+    margin: -10px;
+    background-color: aqua;
+    padding: 10px;
+}
+.pos{
+    margin: 30px;
+    background-color: rgba(221, 224, 44, 0.877);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
